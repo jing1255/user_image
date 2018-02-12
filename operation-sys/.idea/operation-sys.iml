@@ -6,7 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/user" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/common" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Remote Python 2.6.6 (ssh://root@192.168.100.111:22/usr/bin/python)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Remote Python 2.7.9 (ssh://root@linux003:22/usr/bin/python2.7.9)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

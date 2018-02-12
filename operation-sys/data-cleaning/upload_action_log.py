@@ -22,7 +22,8 @@ log = logging.getLogger("operation")
 
 def main():
     try:
-        hive_client = HiveClient()
+        print "enter"
+        # hive_client = HiveClient()
 
         date = ""
         # 如果无参数则以今天时间推算昨天时间进行统计
@@ -36,23 +37,26 @@ def main():
         month = str(date)[5:7]
         year = str(date)[0:4]
 
-
         # 日志路径
         log_path = "/user/dmteam/action_log/" + str(date) + "/action_log_simp.csv"
 
         # 日志上传hql
-        hql = "LOAD DATA INPATH '{log_path}' OVERWRITE INTO TABLE  dm.action_log partition (year='{year}',month='{month}',dt='{date}')".format(
+        hql = "LOAD DATA LOCAL INPATH '{log_path}' OVERWRITE INTO TABLE  dm.action_log partition (year='{year}',month='{month}',dt='{date}')".format(
             log_path=log_path, year=year, month=month, date=date)
 
         # hive shell 命令
         hql_shell = HIVE_HOME + "/bin/hive" + " -e " + "\"" + hql + "\""
         log.info(hql_shell)
         log.info("upload_action_log start ...")
-        (status, output) = commands.getstatusoutput(hql_shell)
+
+        (status, output) = commands.getstatusoutput('dir')
         log.info(output)
+        log.info("============" + str(status))
         # 执行hql
         # rs = hive_client.execute(hql)
         log.info("finished !")
+
+        print "=============="
 
     except pyhs2.error, tx:
         print '%s' % (tx.message)
@@ -61,5 +65,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-

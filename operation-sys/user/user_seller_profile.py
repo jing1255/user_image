@@ -13,7 +13,7 @@ import datetime
 import logging.config
 import sys
 
-#引入目录下的所有python文件到当前脚本环境里
+# 引入目录下的所有python文件到当前脚本环境里
 sys.path.append('../common')
 
 from base import *
@@ -32,8 +32,7 @@ def main():
         db_info = cm.DBInfo("dev_operation")
         print db_info.get_conf()
 
-
-        cur,conn = cm.getConnection(
+        cur, conn = cm.getConnection(
             hostIp=db_info.host,
             username=db_info.username,
             password=db_info.password,
@@ -44,7 +43,6 @@ def main():
 
         hive_client = HiveClient()
 
-
         date = ""
         # 如果无参数则以今天时间推算昨天时间进行统计
         if (len(sys.argv) <= 1):
@@ -52,7 +50,6 @@ def main():
         else:
             # 否则解析参数出指定的统计时间
             date = str(datetime.datetime.strptime(sys.argv[1], '%Y-%m-%d'))[0:10]
-
 
         hql = """
             SELECT
@@ -132,10 +129,11 @@ def main():
                 log.error("unable to insert data @ scheduleSummary")
                 log.error(e)
 
-    except pyhs2.error,e:
+    except pyhs2.error, e:
         conn.rollback()
         log.error("unable to insert data @ scheduleSummary")
         log.error(e)
+
 
 if __name__ == '__main__':
     main()

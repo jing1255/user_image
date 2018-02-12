@@ -1,0 +1,86 @@
+Sun, 11 Feb 2018 21:16:34 db_util.py[line:50] ERROR connect database failed.
+Sun, 11 Feb 2018 21:16:34 db_util.py[line:51] ERROR (2003, "Can't connect to MySQL server on '192.168.100.111' (10060)")
+Sun, 11 Feb 2018 21:16:58 db_util.py[line:50] ERROR connect database failed.
+Sun, 11 Feb 2018 21:16:58 db_util.py[line:51] ERROR (2003, "Can't connect to MySQL server on '192.168.100.111' (10060)")
+Sun, 11 Feb 2018 21:17:22 db_util.py[line:50] ERROR connect database failed.
+Sun, 11 Feb 2018 21:17:22 db_util.py[line:51] ERROR (2003, "Can't connect to MySQL server on '192.168.100.111' (10060)")
+Sun, 11 Feb 2018 21:17:46 db_util.py[line:50] ERROR connect database failed.
+Sun, 11 Feb 2018 21:17:46 db_util.py[line:51] ERROR (2003, "Can't connect to MySQL server on '192.168.100.111' (10060)")
+Sun, 11 Feb 2018 21:18:10 db_util.py[line:50] ERROR connect database failed.
+Sun, 11 Feb 2018 21:18:10 db_util.py[line:51] ERROR (2003, "Can't connect to MySQL server on '192.168.100.111' (10060)")
+Sun, 11 Feb 2018 21:18:13 db_util.py[line:60] ERROR connected db 5 times, but failed.
+Sun, 11 Feb 2018 21:30:14 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 21:30:14 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 21:30:14 upload_action_log.py[line:52] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 21:30:14 upload_action_log.py[line:55] INFO finished !
+Sun, 11 Feb 2018 21:36:28 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 21:36:28 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 21:36:28 upload_action_log.py[line:52] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 21:36:28 upload_action_log.py[line:55] INFO finished !
+Sun, 11 Feb 2018 21:38:57 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 21:38:57 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 21:38:57 upload_action_log.py[line:52] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 21:38:57 upload_action_log.py[line:55] INFO finished !
+Sun, 11 Feb 2018 21:44:05 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 21:44:05 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 21:44:05 upload_action_log.py[line:52] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 21:44:05 upload_action_log.py[line:55] INFO finished !
+Sun, 11 Feb 2018 22:00:37 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:00:37 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:00:38 upload_action_log.py[line:52] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 22:00:38 upload_action_log.py[line:55] INFO finished !
+Sun, 11 Feb 2018 22:06:30 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:06:30 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:06:30 upload_action_log.py[line:52] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 22:06:30 upload_action_log.py[line:55] INFO finished !
+Sun, 11 Feb 2018 22:07:10 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:07:10 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:30:00 upload_action_log.py[line:50] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:30:00 upload_action_log.py[line:51] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:30:44 upload_action_log.py[line:50] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:30:44 upload_action_log.py[line:51] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:32:02 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:32:02 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:32:02 upload_action_log.py[line:52] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 22:32:02 upload_action_log.py[line:55] INFO finished !
+Sun, 11 Feb 2018 22:32:45 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:32:45 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:32:45 upload_action_log.py[line:52] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 22:33:07 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:33:07 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:33:07 upload_action_log.py[line:52] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 22:33:07 upload_action_log.py[line:53] INFO ============1
+Sun, 11 Feb 2018 22:33:07 upload_action_log.py[line:56] INFO finished !
+Sun, 11 Feb 2018 22:36:36 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:36:36 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:36:36 upload_action_log.py[line:53] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 22:36:36 upload_action_log.py[line:54] INFO ============1
+Sun, 11 Feb 2018 22:36:36 upload_action_log.py[line:57] INFO finished !
+Sun, 11 Feb 2018 22:38:03 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:38:03 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:38:03 upload_action_log.py[line:53] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 22:38:03 upload_action_log.py[line:54] INFO ============1
+Sun, 11 Feb 2018 22:38:03 upload_action_log.py[line:57] INFO finished !
+Sun, 11 Feb 2018 22:54:21 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-10/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-10')"
+Sun, 11 Feb 2018 22:54:21 upload_action_log.py[line:50] INFO upload_action_log start ...
+Sun, 11 Feb 2018 22:54:21 upload_action_log.py[line:53] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Sun, 11 Feb 2018 22:54:21 upload_action_log.py[line:54] INFO ============1
+Sun, 11 Feb 2018 22:54:21 upload_action_log.py[line:57] INFO finished !
+Mon, 12 Feb 2018 10:36:59 upload_action_log.py[line:49] INFO /usr/soft/apache-hive-1.2.1-bin/bin/hive -e "LOAD DATA LOCAL INPATH '/user/dmteam/action_log/2018-02-11/action_log_simp.csv' OVERWRITE INTO TABLE  dm.action_log partition (year='2018',month='02',dt='2018-02-11')"
+Mon, 12 Feb 2018 10:36:59 upload_action_log.py[line:50] INFO upload_action_log start ...
+Mon, 12 Feb 2018 10:36:59 upload_action_log.py[line:53] INFO '{' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+Mon, 12 Feb 2018 10:36:59 upload_action_log.py[line:54] INFO ============1
+Mon, 12 Feb 2018 10:36:59 upload_action_log.py[line:57] INFO finished !
