@@ -49,7 +49,7 @@ def main():
         log.info(hql_shell)
         log.info("upload_action_log start ...")
 
-        (status, output) = commands.getstatusoutput('dir')
+        (status, output) = commands.getstatusoutput(hql_shell)
         log.info(output)
         log.info("============" + str(status))
         # 执行hql
