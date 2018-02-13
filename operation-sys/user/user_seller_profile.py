@@ -95,7 +95,7 @@ def main():
         log.info(rs)
 
         # 结果入库
-        for i in rs[0]:
+        for i in rs:
             try:
                 insert_sql = """
                             INSERT INTO user_seller_profile
@@ -112,9 +112,9 @@ def main():
                             );
                           """.format(
                     values=
-                    str(i[0]) +
-                    str(i[1]) +
-                    str(i[2]) +
+                    str(i[0]) + "," +
+                    str(i[1]) + "," +
+                    str(i[2]) + "," +
                     str(0) + "," +
                     "'" + str(i[3]) + "'"
                 )
